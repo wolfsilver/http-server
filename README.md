@@ -6,7 +6,11 @@
 
 # Installing globally:
 
-Installation via `npm`:
+Installation via `npm`.  If you don't have `npm` yet:
+
+     curl https://npmjs.org/install.sh | sh
+
+Once you have `npm`:
 
      npm install http-server -g
 
@@ -56,11 +60,9 @@ This will install `http-server` globally so that it may be run from the command 
 
 `--cors` Enable CORS via the `Access-Control-Allow-Origin` header
 
-`-o` Open browser window after starting the server
+`-o` Open browser window after staring the server
 
 `-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to '3600'). To disable caching, use -c-1.
-
-`-U` or `--utc` Use UTC time format in log messages.
 
 `-P` or `--proxy` Proxies all requests which can't be resolved locally to the given url. e.g.: -P http://someurl.com
 
