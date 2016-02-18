@@ -61,7 +61,7 @@
     "colors": "1.0.3",
     "optimist": "0.6.x",
     "union": "~0.4.3",
-    "ecstatic": "~0.7.0",
+    "ecstatic": "~1.2",
     "http-proxy": "^1.8.1",
     "portfinder": "0.4.x",
     "opener": "~1.4.0",
@@ -80,33 +80,5 @@
   "bin": {
     "http-server": "./bin/http-server",
     "hs": "./bin/http-server"
-  },
-  "gitHead": "b8975be281a5705e71218597940e53034ebe41d4",
-  "homepage": "https://github.com/indexzero/http-server#readme",
-  "_id": "http-server@0.8.5",
-  "_shasum": "bbf27c9f09499e51a1fe1f979a6f39a45a04f2fb",
-  "_from": "http-server@latest",
-  "_npmVersion": "2.14.5",
-  "_nodeVersion": "0.12.7",
-  "_npmUser": {
-    "name": "indexzero",
-    "email": "charlie.robbins@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "indexzero",
-      "email": "charlie.robbins@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "bbf27c9f09499e51a1fe1f979a6f39a45a04f2fb",
-    "size": 475992,
-    "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/http-server/download/http-server-0.8.5.tgz"
-  },
-  "directories": {},
-  "publish_time": 1443225759543,
-  "_cnpm_publish_time": 1443225759543,
-  "_resolved": "https://registry.npm.taobao.org/http-server/download/http-server-0.8.5.tgz",
-  "readme": "ERROR: No README data found!"
+  }
 }
